@@ -1,0 +1,36 @@
+
+body {
+    position: relative; 
+    font-family: "Montserrat" sans-serif;
+    background-color: white;
+    color: black;
+   
+      }
+      
+
+h1, h2 {
+    font-family:"Montserrat";
+}
+
+
+.navbar {
+    box-shadow: 1px 1px 5px #999;
+
+}
+
+
+.social-media li{
+    list-style: none;
+}
+.social-media i{
+font-size: 36px;
+}
+.bx-phone::after{
+    content: none;
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    transform: translate(-500%, 35%);
+}
