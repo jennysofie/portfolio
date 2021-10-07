@@ -25,12 +25,3 @@ h1, h2 {
 .social-media i{
 font-size: 36px;
 }
-.bx-phone::after{
-    content: none;
-    position: absolute;
-    width: 5px;
-    height: 200px;
-    border-radius: 10px;
-    background-color: var(--primary);
-    transform: translate(-500%, 35%);
-}
